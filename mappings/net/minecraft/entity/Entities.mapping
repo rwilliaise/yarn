@@ -1,0 +1,19 @@
+CLASS net/minecraft/class_865 net/minecraft/entity/Entities
+	FIELD field_3266 nameClassMap Ljava/util/Map;
+	FIELD field_3267 classNameMa Ljava/util/Map;
+	FIELD field_3268 idClassMap Ljava/util/Map;
+	METHOD method_2566 fromId (ILnet/minecraft/class_1148;)Lnet/minecraft/class_862;
+	METHOD method_2567 fromTag (Lnet/minecraft/class_322;Lnet/minecraft/class_1148;)Lnet/minecraft/class_862;
+		ARG 0 tag
+		ARG 1 world
+	METHOD method_2568 register ACC:PUBLIC (Ljava/lang/Class;Ljava/lang/String;I)V
+		ARG 0 entityClass
+		ARG 1 name
+		ARG 2 id
+	METHOD method_2569 register ACC:PUBLIC (Ljava/lang/Class;Ljava/lang/String;III)V
+		ARG 0 entityClass
+		ARG 1 name
+		ARG 2 id
+	METHOD method_2570 fromName (Ljava/lang/String;Lnet/minecraft/class_1148;)Lnet/minecraft/class_862;
+		ARG 0 name
+		ARG 1 world

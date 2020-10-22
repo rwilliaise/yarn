@@ -24,6 +24,7 @@ CLASS net/minecraft/class_862 net/minecraft/entity/Entity
 	METHOD method_2505 vectorTag ([D)Lnet/minecraft/class_474;
 	METHOD method_2506 vectorTag ([F)Lnet/minecraft/class_474;
 	METHOD method_2515 getAir ()I
+	METHOD method_2517 getTranslationKey ()Ljava/lang/String;
 	METHOD method_2521 setPos (DDD)V
 	METHOD method_2524 setRotation (FF)V
 	METHOD method_2527 toTag (Lnet/minecraft/class_322;)V
@@ -34,4 +35,8 @@ CLASS net/minecraft/class_862 net/minecraft/entity/Entity
 		ARG 1 tag
 	METHOD method_2546 fromEntityTag (Lnet/minecraft/class_322;)V
 		ARG 1 tag
+	METHOD method_2552 applyForce (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
 	METHOD method_2553 setAir (I)V
