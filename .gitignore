@@ -1,5 +1,5 @@
 # Project exclude paths
 /.gradle/
 .idea
-1.3.1-intermediary.jar
-1.3.1-merged.jar
+*-intermediary.jar
+*-merged.jar
