@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_62 net/minecraft/block/Material
+	FIELD field_127 STONE Lnet/minecraft/class_62;
+	FIELD field_129 WATER Lnet/minecraft/class_62;
+	FIELD field_130 LAVA Lnet/minecraft/class_62;

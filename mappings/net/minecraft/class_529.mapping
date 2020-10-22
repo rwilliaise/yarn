@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_529
+	FIELD field_1887 renderDistance I
+	FIELD field_1917 client Lnet/minecraft/client/Minecraft;
+	METHOD method_1363 loadOptions ()V

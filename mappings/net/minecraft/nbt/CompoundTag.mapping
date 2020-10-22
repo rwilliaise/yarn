@@ -1,0 +1,66 @@
+CLASS net/minecraft/class_322 net/minecraft/nbt/CompoundTag
+	FIELD field_899 values Ljava/util/Map;
+	METHOD method_807 getTag (Ljava/lang/String;)Lnet/minecraft/class_605;
+		ARG 1 key
+	METHOD method_808 set (Ljava/lang/String;B)V
+		ARG 1 key
+		ARG 2 value
+	METHOD method_809 set (Ljava/lang/String;D)V
+		ARG 1 key
+		ARG 2 value
+	METHOD method_810 set (Ljava/lang/String;F)V
+		ARG 1 key
+		ARG 2 value
+	METHOD method_811 set (Ljava/lang/String;I)V
+		ARG 1 key
+		ARG 2 value
+	METHOD method_812 set (Ljava/lang/String;J)V
+		ARG 1 key
+		ARG 2 value
+	METHOD method_813 set (Ljava/lang/String;Lnet/minecraft/class_322;)V
+		ARG 1 key
+		ARG 2 value
+	METHOD method_814 set (Ljava/lang/String;Lnet/minecraft/class_605;)V
+		ARG 1 key
+		ARG 2 value
+	METHOD method_815 set (Ljava/lang/String;Ljava/lang/String;)V
+		ARG 1 key
+		ARG 2 value
+	METHOD method_816 set (Ljava/lang/String;S)V
+		ARG 1 key
+		ARG 2 value
+	METHOD method_817 set (Ljava/lang/String;Z)V
+		ARG 1 key
+		ARG 2 value
+	METHOD method_818 set (Ljava/lang/String;[B)V
+		ARG 1 key
+		ARG 2 value
+	METHOD method_819 set (Ljava/lang/String;[I)V
+		ARG 1 key
+		ARG 2 value
+	METHOD method_820 has (Ljava/lang/String;)Z
+		ARG 1 key
+	METHOD method_822 getByte (Ljava/lang/String;)B
+		ARG 1 key
+	METHOD method_823 getShort (Ljava/lang/String;)S
+		ARG 1 key
+	METHOD method_824 getInteger (Ljava/lang/String;)I
+		ARG 1 key
+	METHOD method_825 getLong (Ljava/lang/String;)J
+		ARG 1 key
+	METHOD method_826 getFloat (Ljava/lang/String;)F
+		ARG 1 key
+	METHOD method_827 getDouble (Ljava/lang/String;)D
+		ARG 1 key
+	METHOD method_828 getString (Ljava/lang/String;)Ljava/lang/String;
+		ARG 1 key
+	METHOD method_829 getByteArray (Ljava/lang/String;)[B
+		ARG 1 key
+	METHOD method_830 getIntegerArray (Ljava/lang/String;)[I
+		ARG 1 key
+	METHOD method_831 getCompound (Ljava/lang/String;)Lnet/minecraft/class_322;
+		ARG 1 key
+	METHOD method_832 getList (Ljava/lang/String;)Lnet/minecraft/class_474;
+		ARG 1 key
+	METHOD method_833 getBoolean (Ljava/lang/String;)Z
+		ARG 1 key

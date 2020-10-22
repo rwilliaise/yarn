@@ -1,0 +1,34 @@
+CLASS net/minecraft/class_196 net/minecraft/block/Block
+	FIELD field_334 FLOWING_WATER Lnet/minecraft/class_196;
+	FIELD field_335 WATER Lnet/minecraft/class_196;
+	FIELD field_336 FLOWING_LAVA Lnet/minecraft/class_196;
+	FIELD field_337 LAVA Lnet/minecraft/class_196;
+	FIELD field_338 SAND Lnet/minecraft/class_196;
+	FIELD field_339 GRAVEL Lnet/minecraft/class_196;
+	FIELD field_340 GOLD_ORE Lnet/minecraft/class_196;
+	FIELD field_341 IRON_ORE Lnet/minecraft/class_196;
+	FIELD field_342 COAL_ORE Lnet/minecraft/class_196;
+	FIELD field_343 LOG Lnet/minecraft/class_196;
+	FIELD field_344 LEAVES Lnet/minecraft/class_149;
+	FIELD field_466 id I
+	FIELD field_483 DUST_SOUND Lnet/minecraft/class_199;
+	FIELD field_484 WOOD_SOUND Lnet/minecraft/class_199;
+	FIELD field_485 GRAVEL_SOUND Lnet/minecraft/class_199;
+	FIELD field_486 GRASS_SOUND Lnet/minecraft/class_199;
+	FIELD field_487 STONE_SOUND Lnet/minecraft/class_199;
+	FIELD field_489 GLASS_MATERIAL Lnet/minecraft/class_199;
+	FIELD field_491 SAND_SOUND Lnet/minecraft/class_199;
+	FIELD field_492 BLOCKS [Lnet/minecraft/class_196;
+	FIELD field_499 STONE Lnet/minecraft/class_196;
+	FIELD field_500 GRASS Lnet/minecraft/class_140;
+	FIELD field_501 DIRT Lnet/minecraft/class_196;
+	FIELD field_502 COBBLESTONE Lnet/minecraft/class_196;
+	FIELD field_503 PLANKS Lnet/minecraft/class_196;
+	FIELD field_504 SAPLING Lnet/minecraft/class_196;
+	FIELD field_505 BEDROCK Lnet/minecraft/class_196;
+	METHOD method_399 addCreativeTabItems (ILnet/minecraft/class_1039;Ljava/util/List;)V
+		ARG 3 list
+	METHOD method_401 setSound (Lnet/minecraft/class_199;)Lnet/minecraft/class_196;
+	METHOD method_430 resistance (F)Lnet/minecraft/class_196;
+	METHOD method_433 setName (Ljava/lang/String;)Lnet/minecraft/class_196;
+	METHOD method_442 hardness (F)Lnet/minecraft/class_196;

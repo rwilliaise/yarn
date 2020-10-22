@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_326 net/minecraft/options/Keybind
+	FIELD field_906 translationKey Ljava/lang/String;
+	FIELD field_907 value I

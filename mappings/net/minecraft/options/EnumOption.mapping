@@ -1,0 +1,32 @@
+CLASS net/minecraft/class_349 net/minecraft/options/EnumOption
+	FIELD field_1001 MUSIC Lnet/minecraft/class_349;
+	FIELD field_1002 SOUND Lnet/minecraft/class_349;
+	FIELD field_1003 INVERT_MOUSE Lnet/minecraft/class_349;
+	FIELD field_1004 SENSITIVITY Lnet/minecraft/class_349;
+	FIELD field_1005 FOV Lnet/minecraft/class_349;
+	FIELD field_1006 GAMMA Lnet/minecraft/class_349;
+	FIELD field_1007 RENDER_DISTANCE Lnet/minecraft/class_349;
+	FIELD field_1008 VIEW_BOBBING Lnet/minecraft/class_349;
+	FIELD field_1009 ANAGLYPH Lnet/minecraft/class_349;
+	FIELD field_1010 ADVANCED_OPENGL Lnet/minecraft/class_349;
+	FIELD field_1011 FRAMERATE_LIMIT Lnet/minecraft/class_349;
+	FIELD field_1012 DIFFICULTY Lnet/minecraft/class_349;
+	FIELD field_1013 GRAPHICS Lnet/minecraft/class_349;
+	FIELD field_1014 AMBIENT_OCCLUSION Lnet/minecraft/class_349;
+	FIELD field_1015 GUI_SCALE Lnet/minecraft/class_349;
+	FIELD field_1016 RENDER_CLOUDS Lnet/minecraft/class_349;
+	FIELD field_1017 PARTICLES Lnet/minecraft/class_349;
+	FIELD field_1018 CHAT_VISIBILITY Lnet/minecraft/class_349;
+	FIELD field_1019 CHAT_COLOR Lnet/minecraft/class_349;
+	FIELD field_1020 CHAT_LINKS Lnet/minecraft/class_349;
+	FIELD field_1021 CHAT_OPACITY Lnet/minecraft/class_349;
+	FIELD field_1022 CHAT_LINKS_PROMPT Lnet/minecraft/class_349;
+	FIELD field_1023 USE_SERVER_TEXTURES Lnet/minecraft/class_349;
+	FIELD field_1024 SNOOPER_ENABLED Lnet/minecraft/class_349;
+	FIELD field_1025 USE_FULLSCREEN Lnet/minecraft/class_349;
+	FIELD field_1026 ENABLE_VSYNC Lnet/minecraft/class_349;
+	FIELD field_999 key Ljava/lang/String;
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;ZZ)V
+		ARG 3 key
+	METHOD method_881 isToggleable ()Z
+	METHOD method_883 getTranslationKey ()Ljava/lang/String;

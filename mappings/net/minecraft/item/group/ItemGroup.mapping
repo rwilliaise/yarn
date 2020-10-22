@@ -1,0 +1,30 @@
+CLASS net/minecraft/class_1039 net/minecraft/item/group/ItemGroup
+	FIELD field_4169 ITEM_GROUPS [Lnet/minecraft/class_1039;
+	FIELD field_4170 BUILDING_BLOCKS Lnet/minecraft/class_1039;
+	FIELD field_4171 DECORATIONS Lnet/minecraft/class_1039;
+	FIELD field_4172 REDSTONE Lnet/minecraft/class_1039;
+	FIELD field_4173 TRANSPORTATION Lnet/minecraft/class_1039;
+	FIELD field_4174 MISC Lnet/minecraft/class_1039;
+	FIELD field_4175 SEARCH Lnet/minecraft/class_1039;
+	FIELD field_4176 FOOD Lnet/minecraft/class_1039;
+	FIELD field_4177 TOOLS Lnet/minecraft/class_1039;
+	FIELD field_4178 COMBAT Lnet/minecraft/class_1039;
+	FIELD field_4179 BREWING Lnet/minecraft/class_1039;
+	FIELD field_4180 MATERIALS Lnet/minecraft/class_1039;
+	FIELD field_4181 INVENTORY Lnet/minecraft/class_1039;
+	FIELD field_4182 id I
+	FIELD field_4183 name Ljava/lang/String;
+	FIELD field_4184 texture Ljava/lang/String;
+	METHOD <init> (ILjava/lang/String;)V
+		ARG 1 id
+		ARG 2 name
+	METHOD method_3313 getId ()I
+	METHOD method_3314 setTexture (Ljava/lang/String;)Lnet/minecraft/class_1039;
+		ARG 1 path
+	METHOD method_3315 getItems (Ljava/util/List;)V
+		ARG 1 list
+	METHOD method_3316 getName ()Ljava/lang/String;
+	METHOD method_3317 getTranslatedName ()Ljava/lang/String;
+	METHOD method_3318 getIcon ()Lnet/minecraft/class_1067;
+	METHOD method_3319 getIconId ()I
+	METHOD method_3320 getTexture ()Ljava/lang/String;

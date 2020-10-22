@@ -1,0 +1,71 @@
+CLASS net/minecraft/class_346 net/minecraft/options/Options
+	FIELD field_934 bindJump Lnet/minecraft/class_326;
+	FIELD field_935 bindInventory Lnet/minecraft/class_326;
+	FIELD field_936 bindDrop Lnet/minecraft/class_326;
+	FIELD field_937 bindChat Lnet/minecraft/class_326;
+	FIELD field_938 bindSneak Lnet/minecraft/class_326;
+	FIELD field_939 bindAttack Lnet/minecraft/class_326;
+	FIELD field_940 bindUse Lnet/minecraft/class_326;
+	FIELD field_941 bindPlayerList Lnet/minecraft/class_326;
+	FIELD field_942 bindPickItem Lnet/minecraft/class_326;
+	FIELD field_943 bindOpenCommand Lnet/minecraft/class_326;
+	FIELD field_944 binds [Lnet/minecraft/class_326;
+	FIELD field_945 client Lnet/minecraft/client/Minecraft;
+	FIELD field_946 difficulty I
+	FIELD field_951 lastServer Ljava/lang/String;
+	FIELD field_957 fov F
+	FIELD field_958 gamma F
+	FIELD field_959 guiScale I
+	FIELD field_960 musicVolume F
+	FIELD field_961 particles I
+	FIELD field_962 language Ljava/lang/String;
+	FIELD field_963 RENDER_DISTANCE_NAMES [Ljava/lang/String;
+	FIELD field_964 DIFFICULTY_NAMES [Ljava/lang/String;
+	FIELD field_965 GUI_SCALE_NAMES [Ljava/lang/String;
+	FIELD field_966 CHAT_VISIBILITY_NAMES [Ljava/lang/String;
+	FIELD field_967 PARTICLES_NAMES [Ljava/lang/String;
+	FIELD field_968 PERFORMANCE_NAMES [Ljava/lang/String;
+	FIELD field_969 file Ljava/io/File;
+	FIELD field_970 soundVolume F
+	FIELD field_971 sensitivity F
+	FIELD field_972 invertMouse Z
+	FIELD field_973 renderDistance I
+	FIELD field_974 viewBobbing Z
+	FIELD field_975 anaglyph Z
+	FIELD field_976 advancedOpenGL Z
+	FIELD field_977 framerateLimit I
+	FIELD field_978 graphics Z
+	FIELD field_979 ambientOcclusion Z
+	FIELD field_980 renderClouds Z
+	FIELD field_981 skin Ljava/lang/String;
+	FIELD field_982 chatVisibility I
+	FIELD field_983 chatColor Z
+	FIELD field_984 chatLinks Z
+	FIELD field_985 chatLinksPrompt Z
+	FIELD field_986 chatOpacity F
+	FIELD field_987 useServerTextures Z
+	FIELD field_988 snooperEnabled Z
+	FIELD field_989 fullscreen Z
+	FIELD field_990 vsync Z
+	FIELD field_991 bindForward Lnet/minecraft/class_326;
+	FIELD field_992 bindStrafeLeft Lnet/minecraft/class_326;
+	FIELD field_993 bindBackwards Lnet/minecraft/class_326;
+	FIELD field_994 bindStrafeRight Lnet/minecraft/class_326;
+	METHOD method_865 read ()V
+	METHOD method_866 getKeybindName (I)Ljava/lang/String;
+		ARG 1 id
+	METHOD method_868 getFloat (Lnet/minecraft/class_349;)F
+		ARG 1 option
+	METHOD method_869 set (Lnet/minecraft/class_349;F)V
+		ARG 1 option
+		ARG 2 value
+	METHOD method_870 set (Lnet/minecraft/class_349;I)V
+		ARG 1 option
+		ARG 2 value
+	METHOD method_871 fromString (Ljava/lang/String;)F
+	METHOD method_873 saveOptions ()V
+	METHOD method_875 getBoolean (Lnet/minecraft/class_349;)Z
+		ARG 1 option
+	METHOD method_876 isFancy ()Z
+	METHOD method_878 getName (Lnet/minecraft/class_349;)Ljava/lang/String;
+		ARG 1 option

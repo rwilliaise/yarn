@@ -1,0 +1,11 @@
+CLASS net/minecraft/class_1067 net/minecraft/item/Item
+	FIELD field_4243 itemGroup Lnet/minecraft/class_1039;
+	FIELD field_4304 id I
+	FIELD field_4339 ITEMS [Lnet/minecraft/class_1067;
+	METHOD method_3343 addToGroup (ILnet/minecraft/class_1039;Ljava/util/List;)V
+		ARG 1 id
+		ARG 2 group
+		ARG 3 list
+	METHOD method_3346 setGroup (Lnet/minecraft/class_1039;)Lnet/minecraft/class_1067;
+		ARG 1 group
+	METHOD method_3396 getGroup ()Lnet/minecraft/class_1039;

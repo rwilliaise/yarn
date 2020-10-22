@@ -1,0 +1,3 @@
+CLASS net/minecraft/client/MinecraftApplet
+	FIELD field_3821 canvas Ljava/awt/Canvas;
+	FIELD field_3822 instance Lnet/minecraft/client/Minecraft;

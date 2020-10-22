@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_212 net/minecraft/block/PlanksBlock
+	FIELD field_512 subBlocks [Ljava/lang/String;

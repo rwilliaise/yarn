@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_451 net/minecraft/nbt/IntegerTag
+	FIELD field_1519 value I

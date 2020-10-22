@@ -1,0 +1,27 @@
+CLASS net/minecraft/client/Minecraft
+	FIELD field_3758 dir Ljava/io/File;
+	FIELD field_3771 standalone Z
+	FIELD field_3794 runDir Ljava/io/File;
+	FIELD field_3797 width I
+	FIELD field_3798 height I
+	FIELD field_3806 canvas Ljava/awt/Canvas;
+	FIELD field_3807 isApplet Z
+	FIELD field_3809 textureManager Lnet/minecraft/class_533;
+	FIELD field_3819 options Lnet/minecraft/class_346;
+	METHOD method_2913 startTimerHack ()V
+	METHOD method_2920 start ()V
+	METHOD method_2926 (Lnet/minecraft/class_1;)V
+		ARG 1 crash
+	METHOD method_2931 getRunDir (Ljava/lang/String;)Ljava/io/File;
+		ARG 0 name
+	METHOD method_2933 addResource (Ljava/lang/String;Ljava/io/File;)V
+		ARG 1 path
+		ARG 2 file
+	METHOD method_2936 getRunDir ()Ljava/io/File;
+	METHOD method_2938 (Lnet/minecraft/class_1;)V
+		ARG 1 crash
+	METHOD method_2944 crash (Lnet/minecraft/class_1;)Lnet/minecraft/class_1;
+		ARG 1 crash
+	METHOD method_2945 printGlError (Ljava/lang/String;)V
+		ARG 1 location
+	METHOD method_2946 stop ()V

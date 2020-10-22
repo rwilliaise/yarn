@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_101
+	METHOD method_248 (Ljava/lang/String;Lnet/minecraft/class_839;)Z
+		ARG 1 path

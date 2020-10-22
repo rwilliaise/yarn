@@ -1,0 +1,20 @@
+CLASS net/minecraft/class_319 net/minecraft/resource/ResourceDownloadThread
+	FIELD field_884 resourceDirectory Ljava/io/File;
+	FIELD field_885 client Lnet/minecraft/client/Minecraft;
+	FIELD field_886 interrupted Z
+	METHOD <init> (Ljava/io/File;Lnet/minecraft/client/Minecraft;)V
+		ARG 2 client
+	METHOD method_800 add (Ljava/io/File;Ljava/lang/String;)V
+		ARG 1 directory
+	METHOD method_801 load (Ljava/net/URL;Ljava/io/File;J)V
+		ARG 1 url
+		ARG 2 resource
+	METHOD method_802 load (Ljava/net/URL;Ljava/lang/String;JI)V
+		ARG 1 url
+		ARG 2 path
+		ARG 5 dir
+	METHOD method_803 cancel ()V
+	METHOD run ()V
+		COMMENT Download and use resources from the MinecraftResources database
+		COMMENT
+		COMMENT TODO: Need to make this not load from the old MinecraftResources URL!

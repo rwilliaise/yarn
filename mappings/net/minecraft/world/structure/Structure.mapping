@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_32 net/minecraft/world/structure/Structure
+	METHOD method_45 generate (II)Z
+		ARG 1 x
+		ARG 2 y

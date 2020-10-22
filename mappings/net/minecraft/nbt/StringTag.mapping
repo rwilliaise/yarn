@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_579 net/minecraft/nbt/StringTag
+	FIELD field_2141 value Ljava/lang/String;

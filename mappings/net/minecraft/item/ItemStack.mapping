@@ -1,0 +1,34 @@
+CLASS net/minecraft/class_1069 net/minecraft/item/ItemStack
+	FIELD field_4372 count I
+	FIELD field_4374 id I
+	FIELD field_4375 tag Lnet/minecraft/class_322;
+	FIELD field_4376 damage I
+	METHOD <init> (III)V
+		ARG 1 id
+		ARG 2 cont
+		ARG 3 damage
+	METHOD <init> (Lnet/minecraft/class_1067;)V
+		ARG 1 item
+	METHOD <init> (Lnet/minecraft/class_1067;I)V
+		ARG 1 item
+		ARG 2 count
+	METHOD <init> (Lnet/minecraft/class_1067;II)V
+		ARG 1 item
+		ARG 2 count
+		ARG 3 damage
+	METHOD <init> (Lnet/minecraft/class_196;)V
+		ARG 1 block
+	METHOD <init> (Lnet/minecraft/class_196;I)V
+		ARG 1 block
+		ARG 2 count
+	METHOD <init> (Lnet/minecraft/class_196;II)V
+		ARG 1 block
+		ARG 2 count
+		ARG 3 damage
+	METHOD method_3419 getItem ()Lnet/minecraft/class_1067;
+	METHOD method_3422 toTag (Lnet/minecraft/class_322;)Lnet/minecraft/class_322;
+		ARG 1 tag
+	METHOD method_3428 fromTag (Lnet/minecraft/class_322;)V
+		ARG 1 tag
+	METHOD method_3445 getEnchantmentsTag ()Lnet/minecraft/class_474;
+	METHOD method_3446 getEnchantments ()Ljava/util/List;
