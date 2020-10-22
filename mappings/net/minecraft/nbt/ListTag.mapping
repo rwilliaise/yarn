@@ -1,1 +1,2 @@
 CLASS net/minecraft/class_474 net/minecraft/nbt/ListTag
+	METHOD method_1218 get (I)Lnet/minecraft/class_605;

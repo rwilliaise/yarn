@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_1148 net/minecraft/world/World
+	METHOD method_3679 (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z

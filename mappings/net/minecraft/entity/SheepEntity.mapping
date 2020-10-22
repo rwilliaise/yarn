@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_947 net/minecraft/entity/SheepEntity
+	METHOD method_2861 setColor (I)V
+	METHOD method_2862 setShearedTick (Z)V
+	METHOD method_2865 getColor ()I
+	METHOD method_2866 getShearedTick ()Z

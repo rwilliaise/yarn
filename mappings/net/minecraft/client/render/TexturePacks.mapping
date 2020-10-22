@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_614 net/minecraft/client/render/TexturePacks
+	FIELD field_2239 client Lnet/minecraft/client/Minecraft;
+	METHOD <init> (Ljava/io/File;Lnet/minecraft/client/Minecraft;)V
+		ARG 1 runDir
+		ARG 2 client

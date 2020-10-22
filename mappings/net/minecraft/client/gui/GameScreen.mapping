@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_387 net/minecraft/client/gui/GameScreen
+	FIELD field_1228 client Lnet/minecraft/client/Minecraft;
+	METHOD method_1038 getClipboard ()Ljava/lang/String;

@@ -1,0 +1,16 @@
+CLASS net/minecraft/class_328 net/minecraft/client/render/TextureLoader
+	FIELD field_911 lists Ljava/util/Map;
+	FIELD field_912 textures Ljava/util/List;
+	METHOD method_848 clean ()V
+	METHOD method_849 genList (I)I
+		ARG 0 size
+	METHOD method_850 genTexture (Ljava/nio/IntBuffer;)V
+		ARG 0 buffer
+	METHOD method_851 deleteList (I)V
+		ARG 0 id
+	METHOD method_852 allocateByteBuffer (I)Ljava/nio/ByteBuffer;
+		ARG 0 size
+	METHOD method_853 allocateIntBuffer (I)Ljava/nio/IntBuffer;
+		ARG 0 size
+	METHOD method_854 allocateFloatBuffer (I)Ljava/nio/FloatBuffer;
+		ARG 0 size

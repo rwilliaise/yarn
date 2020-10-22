@@ -1,0 +1,16 @@
+CLASS net/minecraft/class_1156 net/minecraft/world/BlockAccess
+	METHOD method_3771 getBiome (II)Lnet/minecraft/class_1168;
+		ARG 1 x
+		ARG 2 z
+	METHOD method_3772 getBlock (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD method_3773 isAir (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD method_3779 getBlockEntity (III)Lnet/minecraft/class_225;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z

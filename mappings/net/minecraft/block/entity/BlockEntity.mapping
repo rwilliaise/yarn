@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_225 net/minecraft/block/entity/BlockEntity
+	FIELD field_565 world Lnet/minecraft/class_1148;

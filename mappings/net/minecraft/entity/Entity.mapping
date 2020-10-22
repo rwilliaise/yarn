@@ -1,0 +1,37 @@
+CLASS net/minecraft/class_862 net/minecraft/entity/Entity
+	FIELD field_3191 rotationY F
+	FIELD field_3195 onGround Z
+	FIELD field_3208 fallDistance F
+	FIELD field_3216 rand Ljava/util/Random;
+	FIELD field_3232 fireTick I
+	FIELD field_3246 world Lnet/minecraft/class_1148;
+	FIELD field_3250 x D
+	FIELD field_3251 y D
+	FIELD field_3252 z D
+	FIELD field_3253 motionX D
+	FIELD field_3254 motionY D
+	FIELD field_3255 motionZ D
+	FIELD field_3256 rotationX F
+	METHOD method_2472 getTexture ()Ljava/lang/String;
+	METHOD method_2486 (DDDFF)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 rotationX
+		ARG 8 rotationY
+	METHOD method_2497 fromTag (Lnet/minecraft/class_322;)V
+		ARG 1 tag
+	METHOD method_2505 vectorTag ([D)Lnet/minecraft/class_474;
+	METHOD method_2506 vectorTag ([F)Lnet/minecraft/class_474;
+	METHOD method_2515 getAir ()I
+	METHOD method_2521 setPos (DDD)V
+	METHOD method_2524 setRotation (FF)V
+	METHOD method_2527 toTag (Lnet/minecraft/class_322;)V
+		ARG 1 tag
+	METHOD method_2534 (Lnet/minecraft/class_322;)Z
+		ARG 1 tag
+	METHOD method_2541 toEntityTag (Lnet/minecraft/class_322;)V
+		ARG 1 tag
+	METHOD method_2546 fromEntityTag (Lnet/minecraft/class_322;)V
+		ARG 1 tag
+	METHOD method_2553 setAir (I)V

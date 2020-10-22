@@ -1,4 +1,5 @@
 CLASS net/minecraft/class_1067 net/minecraft/item/Item
+	FIELD field_4224 WHEAT Lnet/minecraft/class_1067;
 	FIELD field_4243 itemGroup Lnet/minecraft/class_1039;
 	FIELD field_4304 id I
 	FIELD field_4339 ITEMS [Lnet/minecraft/class_1067;

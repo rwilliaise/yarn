@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_1024
+	METHOD method_3294 (Lnet/minecraft/class_1069;Lnet/minecraft/class_1069;)V
+		ARG 1 stack1

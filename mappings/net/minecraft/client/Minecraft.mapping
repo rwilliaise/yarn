@@ -20,6 +20,7 @@ CLASS net/minecraft/client/Minecraft
 	METHOD method_2936 getRunDir ()Ljava/io/File;
 	METHOD method_2938 (Lnet/minecraft/class_1;)V
 		ARG 1 crash
+	METHOD method_2939 getOperatingSystem ()Lnet/minecraft/class_341;
 	METHOD method_2944 crash (Lnet/minecraft/class_1;)Lnet/minecraft/class_1;
 		ARG 1 crash
 	METHOD method_2945 printGlError (Ljava/lang/String;)V

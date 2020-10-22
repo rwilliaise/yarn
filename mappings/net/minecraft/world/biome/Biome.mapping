@@ -1,0 +1,27 @@
+CLASS net/minecraft/class_1168 net/minecraft/world/biome/Biome
+	FIELD field_4613 grassId B
+	FIELD field_4614 dirtId B
+	FIELD field_4632 BIOMES [Lnet/minecraft/class_1168;
+	FIELD field_4633 OCEAN Lnet/minecraft/class_1168;
+	FIELD field_4634 PLAINS Lnet/minecraft/class_1168;
+	FIELD field_4635 DESERT Lnet/minecraft/class_1168;
+	FIELD field_4636 EXTREME_HILLS Lnet/minecraft/class_1168;
+	FIELD field_4637 FOREST Lnet/minecraft/class_1168;
+	FIELD field_4638 TAIGA Lnet/minecraft/class_1168;
+	FIELD field_4639 SWAMPLAND Lnet/minecraft/class_1168;
+	FIELD field_4640 RIVER Lnet/minecraft/class_1168;
+	FIELD field_4641 HELL Lnet/minecraft/class_1168;
+	FIELD field_4642 SKY Lnet/minecraft/class_1168;
+	FIELD field_4643 FROZEN_OCEAN Lnet/minecraft/class_1168;
+	FIELD field_4644 FROZEN_RIVER Lnet/minecraft/class_1168;
+	FIELD field_4645 ICE_PLAINS Lnet/minecraft/class_1168;
+	FIELD field_4646 ICE_MOUNTAINS Lnet/minecraft/class_1168;
+	FIELD field_4647 MUSHROOM_ISLAND Lnet/minecraft/class_1168;
+	FIELD field_4648 MUSHROOM_ISLAND_SHOER Lnet/minecraft/class_1168;
+	FIELD field_4649 BEACH Lnet/minecraft/class_1168;
+	FIELD field_4650 DESERT_HILLS Lnet/minecraft/class_1168;
+	FIELD field_4651 FOREST_HILLS Lnet/minecraft/class_1168;
+	FIELD field_4652 TAIGA_HILLS Lnet/minecraft/class_1168;
+	FIELD field_4653 EXTREME_HILLS_EDGES Lnet/minecraft/class_1168;
+	FIELD field_4654 JUNGLE Lnet/minecraft/class_1168;
+	FIELD field_4655 JUNGLE_HILLS Lnet/minecraft/class_1168;

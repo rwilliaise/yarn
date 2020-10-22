@@ -1,0 +1,13 @@
+CLASS net/minecraft/class_533 net/minecraft/client/render/TextureManager
+	FIELD field_1970 clamp Z
+	FIELD field_1971 blur Z
+	FIELD field_1975 buffer Ljava/nio/IntBuffer;
+	FIELD field_1976 byteBuffer Ljava/nio/ByteBuffer;
+	FIELD field_1979 options Lnet/minecraft/class_346;
+	FIELD field_1981 image Ljava/awt/image/BufferedImage;
+	METHOD method_1415 delete (I)V
+	METHOD method_1418 load (Ljava/awt/image/BufferedImage;I)V
+		ARG 1 image
+	METHOD method_1424 load ([IIII)V
+	METHOD method_1426 bindTexture (I)V
+	METHOD method_1428 getTexture (Ljava/lang/String;)I

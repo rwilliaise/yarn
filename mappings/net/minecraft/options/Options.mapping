@@ -12,6 +12,7 @@ CLASS net/minecraft/class_346 net/minecraft/options/Options
 	FIELD field_944 binds [Lnet/minecraft/class_326;
 	FIELD field_945 client Lnet/minecraft/client/Minecraft;
 	FIELD field_946 difficulty I
+	FIELD field_949 debug Z
 	FIELD field_951 lastServer Ljava/lang/String;
 	FIELD field_957 fov F
 	FIELD field_958 gamma F
