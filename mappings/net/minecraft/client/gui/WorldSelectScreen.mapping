@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_390 net/minecraft/client/gui/WorldSelectScreen
+	FIELD field_1261 title Ljava/lang/String;
+	FIELD field_1267 world Ljava/lang/String;
+	FIELD field_1268 convert Ljava/lang/String;
+	FIELD field_1269 gamemodes [Ljava/lang/String;

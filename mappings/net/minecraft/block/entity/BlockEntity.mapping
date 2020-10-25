@@ -1,2 +1,21 @@
 CLASS net/minecraft/class_225 net/minecraft/block/entity/BlockEntity
+	FIELD field_563 idMap Ljava/util/Map;
+	FIELD field_564 classMap Ljava/util/Map;
 	FIELD field_565 world Lnet/minecraft/class_1148;
+	FIELD field_566 x I
+	FIELD field_567 y I
+	FIELD field_568 z I
+	FIELD field_571 block Lnet/minecraft/class_196;
+	METHOD method_537 fromTag (Lnet/minecraft/class_322;)V
+		ARG 1 tag
+	METHOD method_538 register (Ljava/lang/Class;Ljava/lang/String;)V
+		ARG 0 entityClass
+		ARG 1 id
+	METHOD method_539 setWorld (Lnet/minecraft/class_1148;)V
+		ARG 1 world
+	METHOD method_541 toTag (Lnet/minecraft/class_322;)V
+		ARG 1 tag
+	METHOD method_542 (Lnet/minecraft/class_322;)Lnet/minecraft/class_225;
+		ARG 0 tag
+	METHOD method_548 getWorld ()Lnet/minecraft/class_1148;
+	METHOD method_549 hasWorld ()Z

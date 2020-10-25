@@ -1,1 +1,2 @@
 CLASS net/minecraft/class_215 net/minecraft/block/entity/ChestBlockEntity
+	FIELD field_525 inventory [Lnet/minecraft/class_1069;

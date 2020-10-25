@@ -1,0 +1,9 @@
+CLASS net/minecraft/class_217 net/minecraft/i18n/I18n
+	COMMENT Don't have a locale on hand? Too lazy to do Locale#getDefaultLocale? Are
+	COMMENT you an idiot? Well worry no more! Simply use I18n.
+	FIELD field_529 locale Lnet/minecraft/class_244;
+	METHOD method_514 getRaw (Ljava/lang/String;)Ljava/lang/String;
+		ARG 0 key
+	METHOD method_515 get (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+		ARG 0 key
+		ARG 1 format

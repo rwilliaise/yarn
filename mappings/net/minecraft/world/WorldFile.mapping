@@ -1,3 +1,0 @@
-CLASS net/minecraft/class_98 net/minecraft/world/WorldFile
-	METHOD <init> (Ljava/io/File;)V
-		ARG 1 file

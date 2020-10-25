@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_1157 net/minecraft/world/Generator
+	FIELD field_4576 INSTANCE Lnet/minecraft/class_1157;
+	METHOD method_3783 getName ()Ljava/lang/String;
+	METHOD method_3785 fromName (Ljava/lang/String;)Lnet/minecraft/class_1157;
+	METHOD method_3788 getVersion ()I

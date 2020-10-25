@@ -10,6 +10,7 @@ CLASS net/minecraft/class_196 net/minecraft/block/Block
 	FIELD field_342 COAL_ORE Lnet/minecraft/class_196;
 	FIELD field_343 LOG Lnet/minecraft/class_196;
 	FIELD field_344 LEAVES Lnet/minecraft/class_149;
+	FIELD field_421 END_PORTAL_FRAME Lnet/minecraft/class_196;
 	FIELD field_466 id I
 	FIELD field_483 DUST_SOUND Lnet/minecraft/class_199;
 	FIELD field_484 WOOD_SOUND Lnet/minecraft/class_199;
@@ -30,6 +31,8 @@ CLASS net/minecraft/class_196 net/minecraft/block/Block
 		ARG 3 list
 	METHOD method_401 setSound (Lnet/minecraft/class_199;)Lnet/minecraft/class_196;
 	METHOD method_406 setGroup (Lnet/minecraft/class_1039;)Lnet/minecraft/class_196;
+	METHOD method_415 (Lnet/minecraft/class_1148;IIILjava/util/Random;)V
+		ARG 1 world
 	METHOD method_430 resistance (F)Lnet/minecraft/class_196;
 	METHOD method_433 setName (Ljava/lang/String;)Lnet/minecraft/class_196;
 	METHOD method_442 hardness (F)Lnet/minecraft/class_196;

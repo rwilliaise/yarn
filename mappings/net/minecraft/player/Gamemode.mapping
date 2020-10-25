@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_1155 net/minecraft/player/Gamemode
+	FIELD field_4568 NOT_SET Lnet/minecraft/class_1155;
+	FIELD field_4569 SURVIVAL Lnet/minecraft/class_1155;
+	FIELD field_4570 CREATIVE Lnet/minecraft/class_1155;
+	FIELD field_4571 ADVENTURE Lnet/minecraft/class_1155;
+	METHOD method_3761 toInt ()I

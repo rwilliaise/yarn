@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_1154 net/minecraft/world/WorldSelector
+	METHOD method_3755 getSeed ()J
+	METHOD method_3756 getGamemode ()Lnet/minecraft/class_1155;
+	METHOD method_3757 isHardcore ()Z
+	METHOD method_3758 shouldGenerateStructures ()Z
+	METHOD method_3759 getGenerator ()Lnet/minecraft/class_1157;
+	METHOD method_3760 shouldAllowCommands ()Z

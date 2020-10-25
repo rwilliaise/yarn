@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_796 net/minecraft/entity/player/ServerPlayerEntity
+	FIELD field_2822 server Lnet/minecraft/server/MinecraftServer;
+	FIELD field_2824 locale Lnet/minecraft/class_244;
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/class_1148;Ljava/lang/String;Lnet/minecraft/class_797;)V
+		ARG 1 server

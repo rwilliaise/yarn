@@ -1,0 +1,86 @@
+CLASS net/minecraft/class_99 net/minecraft/world/WorldTag
+	FIELD field_233 seed J
+	FIELD field_234 generator Lnet/minecraft/class_1157;
+	FIELD field_235 spawnX I
+	FIELD field_236 spawnY I
+	FIELD field_237 spawnZ I
+	FIELD field_238 time J
+	FIELD field_239 lastPlayed J
+	FIELD field_240 sizeOnDisk J
+	FIELD field_241 tag Lnet/minecraft/class_322;
+	FIELD field_242 dimension I
+	FIELD field_243 name Ljava/lang/String;
+	FIELD field_244 version I
+	FIELD field_245 raining Z
+	FIELD field_246 rainTick I
+	FIELD field_247 thundering Z
+	FIELD field_248 thunderTick I
+	FIELD field_249 defaultGamemode Lnet/minecraft/class_1155;
+	FIELD field_250 generateStructures Z
+	FIELD field_251 hardcoreMode Z
+	FIELD field_252 allowCommands Z
+	FIELD field_253 initialized Z
+	METHOD <init> (Lnet/minecraft/class_1154;Ljava/lang/String;)V
+		ARG 1 selector
+		ARG 2 name
+	METHOD <init> (Lnet/minecraft/class_322;)V
+		ARG 1 tag
+	METHOD <init> (Lnet/minecraft/class_99;)V
+		ARG 1 file
+	METHOD method_201 toTag ()Lnet/minecraft/class_322;
+	METHOD method_202 setSpawnX (I)V
+		ARG 1 x
+	METHOD method_203 setSpawn (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD method_204 toTag (Lnet/minecraft/class_322;)Lnet/minecraft/class_322;
+		ARG 1 playerTag
+	METHOD method_205 toTag (Lnet/minecraft/class_322;Lnet/minecraft/class_322;)V
+		ARG 1 tag
+		ARG 2 playerTag
+	METHOD method_206 setName (Ljava/lang/String;)V
+		ARG 1 name
+	METHOD method_207 setGamemode (Lnet/minecraft/class_1155;)V
+		ARG 1 mode
+	METHOD method_208 setGenerator (Lnet/minecraft/class_1157;)V
+		ARG 1 generator
+	METHOD method_209 setThundering (Z)V
+		ARG 1 t
+	METHOD method_210 getSeed ()J
+	METHOD method_211 setSpawnY (I)V
+		ARG 1 y
+	METHOD method_212 setTime (J)V
+		ARG 1 time
+	METHOD method_213 setRaining (Z)V
+		ARG 1 raining
+	METHOD method_214 getSpawnX ()I
+	METHOD method_215 setSpawnZ (I)V
+		ARG 1 z
+	METHOD method_216 getSpawnY ()I
+	METHOD method_217 setInitialized (Z)V
+		ARG 1 init
+	METHOD method_218 getSpawnZ ()I
+	METHOD method_219 setVersion (I)V
+		ARG 1 version
+	METHOD method_220 getTime ()J
+	METHOD method_221 setThunderTime (I)V
+		ARG 1 time
+	METHOD method_222 getSizeOnDisk ()J
+	METHOD method_223 setRainTime (I)V
+		ARG 1 time
+	METHOD method_224 getTag ()Lnet/minecraft/class_322;
+	METHOD method_225 getDimension ()I
+	METHOD method_226 getName ()Ljava/lang/String;
+	METHOD method_227 getVersion ()I
+	METHOD method_228 getLastPlayed ()J
+	METHOD method_229 isThundering ()Z
+	METHOD method_230 getThunderTime ()I
+	METHOD method_231 isRaining ()Z
+	METHOD method_232 getRainTime ()I
+	METHOD method_233 getGamemode ()Lnet/minecraft/class_1155;
+	METHOD method_234 shouldGenerateStructures ()Z
+	METHOD method_235 isHardcore ()Z
+	METHOD method_236 getGenerator ()Lnet/minecraft/class_1157;
+	METHOD method_237 allowCommands ()Z
+	METHOD method_238 isInitialized ()Z

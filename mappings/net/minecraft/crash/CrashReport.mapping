@@ -7,7 +7,7 @@ CLASS net/minecraft/class_1 net/minecraft/crash/CrashReport
 		ARG 1 desc
 		ARG 2 throwable
 	METHOD method_1 getDescription ()Ljava/lang/String;
-	METHOD method_10 prependHeader ACC:PRIVATE ()Ljava/lang/String;
+	METHOD method_10 prependHeader ()Ljava/lang/String;
 	METHOD method_11 getFile ()Ljava/io/File;
 	METHOD method_12 addBaseContext ()V
 	METHOD method_13 getComment ()Ljava/lang/String;

@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_229 net/minecraft/block/entity/PistonBlockEntity
+	FIELD field_574 id I
+	FIELD field_575 data I
+	FIELD field_576 facing I
+	FIELD field_577 extending Z
+	FIELD field_580 progress F

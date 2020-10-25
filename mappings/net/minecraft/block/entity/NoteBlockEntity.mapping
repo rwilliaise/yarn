@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_222 net/minecraft/block/entity/NoteBlockEntity
+	FIELD field_558 note B
+	FIELD field_559 obstructured Z

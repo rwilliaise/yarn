@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_93 net/minecraft/world/WorldDirectory
+	METHOD method_194 getRegionFiles (Ljava/io/File;Ljava/util/Collection;)V
+		ARG 1 worldDir
+		ARG 2 regions
+	METHOD method_196 backup (Ljava/lang/String;)V

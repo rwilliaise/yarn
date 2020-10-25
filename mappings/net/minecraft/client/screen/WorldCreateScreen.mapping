@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_362 net/minecraft/client/screen/WorldCreateScreen
+	FIELD field_1089 newWorldName Ljava/lang/String;
+	FIELD field_1092 screen Lnet/minecraft/class_387;
+	FIELD field_1096 gamemodeName Ljava/lang/String;
